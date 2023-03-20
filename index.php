@@ -7,6 +7,8 @@
     <title>formulaire</title>
 </head>
 <body>
+ 
+
 <form action="thanks.php" method="POST">
   <label for="prenom">Prénom :</label>
   <input type="text" id="prenom" name="prenom" required><br>
@@ -17,7 +19,7 @@
   <label for="email">E-mail :</label>
   <input type="email" id="email" name="mail" required><br>
 
-  <label for="telephone">Téléphone :</label>
+  <label for="telephone">Téléphone :</label> 
   <input type="tel" id="telephone" name="tel" required><br>
 
   <label for="sujet">Sujet :</label>
@@ -32,6 +34,10 @@
 
   <button type="submit">Envoyer</button>
 </form>
+
+
+
+
 
 </body>
 </html>
